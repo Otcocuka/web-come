@@ -6,3 +6,19 @@ const nextConfig = {
   };
   
   module.exports = nextConfig;
+
+
+
+
+//   redirect to about
+//   module.exports = {
+//     async redirects() {
+//       return [
+//         {
+//           source: '/',
+//           destination: '/about',
+//           permanent: true,
+//         },
+//       ]
+//     },
+//   }
