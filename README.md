@@ -1,4 +1,5 @@
-[https://web-come.vercel.app/](current_version)
+Currently deployed to 
+https://web-come.vercel.app/
 
 
 
