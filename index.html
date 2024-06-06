@@ -11,10 +11,193 @@
 </head>
 
 <body>
+    <div
+        class="header-wrapper p-4 bg-[#18191c] fixed top-0 z-50 w-full transition-transform duration-300">
+        <header id="header"
+            class="flex container mx-auto text-white bg-[#18191c] w-full max-w-screen-xl justify-between items-center gap-4 flex-wrap">
+            <div class="header_left flex gap-8 items-center">
+
+                <div class="header-logo text-center text-2xl font-semibold text-white">
+                    <a href="/index.html">
+                        Web-Come
+                    </a>
+                </div>
+
+                <div class="header-contacts flex flex-col gap-2">
+                    <div class="tel">
+                        <a href="tel:+9955518282" class="font-bold hover:text-red-500 text-base sm:text-xl text-white shadow-2xl transition duration-150 ease-in-out underline">+995 551-82-82</a>
+                    </div>
+                    <div class="header-socials flex gap-2">
+                        <!-- <a href="#"><img class="w-[20px] max-h-[20px]" src="./img/insta.svg" alt="Instagram"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/tt.svg" alt="TikTok"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/yt.svg" alt="YouTube"></a> -->
+                        <a href="#"><img class="w-[20px]" src="./img/fb.svg" alt="Facebook"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/tg.svg" alt="Telegram"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/wa.svg" alt="WhatsApp"></a>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            <!-- <nav class="min-w-[50%] hidden lg:block">
+                <ul class="flex flex-row justify-between">
+                    <li><a class="inline-block p-2 text-lg text-slate-800 text-nowrap hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/about.html">О нас</a></li>
+                    <li class="font-medium"><a
+                            class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/services.html">Услуги</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/warranty.html">Гарантия</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/blog.html">Блог</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/vacancies.html">Вакансии</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/contacts.html">Контакты</a></li>
+                </ul>
+            </nav> -->
+            
+
+
+
+
+
+            <div class="header-cta__wrapper flex gap-12 items-center">
+                <div class="header-cta xl:block">
+                        <a class="font-bold hover:text-red-500 text-xl text-white transition duration-150 ease-in-out" href="/contacts.html">Обсудить проект</a>
+                </div>
+                <div class="header-controls flex flex-col items-center gap-2">
+                    <a class="me-1.5 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out "
+                        data-twe-offcanvas-toggle href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample" data-twe-ripple-init data-twe-ripple-color="light">
+                        <svg class="w-8 h-8 text-white hover:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </a>
+                    <div class="relative" data-twe-dropdown-ref>
+                        <button
+                            class="flex items-center px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-border-b transition duration-150 ease-in-out hover:shadow-dark-strong motion-reduce:transition-none"
+                            id="dropdownMenuButton1" data-twe-dropdown-toggle-ref aria-expanded="false"
+                            data-twe-ripple-init data-twe-ripple-color="light">
+                            RU
+                            <span class="ms-2 w-2 [&>svg]:h-5 [&>svg]:w-5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                        </button>
+                        <ul class="absolute z-[1000] float-left m-0 hidden min-w-max list-none overflow-hidden rounded-lg border-none bg-white bg-clip-padding text-base shadow-lg data-[twe-dropdown-show]:block dark:bg-surface-dark"
+                            aria-labelledby="dropdownMenuButton1" data-twe-dropdown-menu-ref>
+                            <li>
+                                <a class="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-zinc-200/60 focus:bg-zinc-200/60 focus:outline-none active:bg-zinc-200/60 active:no-underline dark:bg-surface-dark dark:text-white dark:hover:bg-neutral-800/25 dark:focus:bg-neutral-800/25 dark:active:bg-neutral-800/25"
+                                    href="#" data-twe-dropdown-item-ref>ENG</a>
+                            </li>
+                            <li>
+                                <a class="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-zinc-200/60 focus:bg-zinc-200/60 focus:outline-none active:bg-zinc-200/60 active:no-underline dark:bg-surface-dark dark:text-white dark:hover:bg-neutral-800/25 dark:focus:bg-neutral-800/25 dark:active:bg-neutral-800/25"
+                                    href="#" data-twe-dropdown-item-ref>KA</a>
+                            </li>
+                            <li>
+                                <a class="block w-full whitespace-nowrap bg-white px-4 py-2 text-sm font-normal text-neutral-700 hover:bg-zinc-200/60 focus:bg-zinc-200/60 focus:outline-none active:bg-zinc-200/60 active:no-underline dark:bg-surface-dark dark:text-white dark:hover:bg-neutral-800/25 dark:focus:bg-neutral-800/25 dark:active:bg-neutral-800/25"
+                                    href="#" data-twe-dropdown-item-ref>TR</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+
+
+
+
+    <!-- offcanvas(sidenav) -->
+
+
+
+
+
+    <div class="invisible fixed bottom-0 left-0 top-0 z-[1045] flex w-96 max-w-full -translate-x-full flex-col border-none bg-white bg-clip-padding text-neutral-700 shadow-sm outline-none transition duration-300 ease-in-out data-[twe-offcanvas-show]:transform-none dark:bg-body-dark dark:text-white"
+        tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel" data-twe-offcanvas-init>
+        <div class="flex items-center justify-between p-4">
+            <h5 class="mb-0 font-semibold leading-normal" id="offcanvasExampleLabel">
+                "Georgian Electric Group" ©
+            </h5>
+            <button type="button"
+                class="box-content rounded-none border-none text-neutral-500 hover:text-neutral-800 hover:no-underline focus:text-neutral-800 focus:opacity-100 focus:shadow-none focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
+                data-twe-offcanvas-dismiss aria-label="Close">
+                <span class="[&>svg]:h-6 [&>svg]:w-6">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </span>
+            </button>
+        </div>
+        <div class="flex-grow overflow-y-auto p-4">
+            <div class="mb-8">
+                <p>Добро пожаловать на сайт Georgian Electric Group! Мы гордимся тем, что предлагаем широкий спектр
+                    электрических услуг для вашего дома и офиса в Грузии. Наши опытные специалисты всегда готовы помочь
+                    вам.</p>
+            </div>
+            <nav class="min-w-[50%] mb-8">
+                <div class="footer_services__header font-semibold mb-2 text-[#003366]">
+                    Навигация</div>
+                <ul class="flex flex-col justify-between">
+                    <li><a class="inline-block p-2 text-lg text-slate-800 text-nowrap hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/about.html">О нас</a></li>
+                    <li class="font-medium"><a
+                            class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/services.html">Услуги</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/warranty.html">Гарантия</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/blog.html">Блог</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/vacancies.html">Вакансии</a></li>
+                    <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                            href="/contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="footer_services">
+                <div class="footer_services__header font-semibold mb-2 text-[#003366]">
+                    Электрические услуги</div>
+                <div class="footer_services__body mx-auto">
+                    <ul class="flex flex-col justify-between">
+                        <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                                href="/services.html#sockets" rel="noopener noreferrer">Установка
+                                розеток</a></li>
+                        <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                                href="/services.html#lighting">Освещение в квартире</a></li>
+                        <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                                href="/services.html#protection" rel="noopener noreferrer">Монтаж защиты</a>
+                        </li>
+                        <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                                href="/services.html#wiring" rel="noopener noreferrer">Монтаж
+                                электропроводки</a>
+                        </li>
+                        <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                                href="/services.html#hhappliances" rel="noopener noreferrer">Подключение
+                                техники</a>
+                        </li>
+                        <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
+                                href="/services.html#lowcurrent" rel="noreferrer noopener">Монтаж
+                                слаботочных систем</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <h1 class="text-nowrap absolute top-[50%] left-[50%] text-white z-50 mx-auto text-4xl font-semibold translate-x-[-50%]  translate-y-[-50%]">WEB-COME</h1>
 
-    <iframe class="relative" src="https://html.5corners.ru/fluid_simulation/" width="100%" height="100%" frameborder="0"></iframe>
+    <iframe id="frame" class="relative" src="https://html.5corners.ru/fluid_simulation/" width="100%" height="100%" frameborder="0"></iframe>
 
 
     <section class="min-h-screen p-8 services container mx-auto">
@@ -1504,6 +1687,7 @@
 
         
         <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
+        <script type="text/javascript" src="./canvas.js"></script>
         <script type="text/javascript" src="./script.js"></script>
         <script type="text/javascript" src="./tw-elements.umd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>

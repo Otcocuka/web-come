@@ -8,19 +8,40 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
 </head>
 
-<body>
+<body class="bg-[#18191c]">
+
 
 
     <div
-        class="header-wrapper p-4 bg-white fixed top-0 z-50 w-full border-b-2 border-[#003366] transition-transform duration-300">
+        class="header-wrapper p-4 bg-[#18191c] fixed top-0 z-50 w-full border-b-2 border-red-500 transition-transform duration-300">
         <header
-            class="flex container mx-auto text-black bg-white w-full max-w-screen-xl justify-between items-center gap-4 flex-wrap">
-            <div class="header-logo text-center">
-                <a href="/index.html">
-                    <img class="max-w-[100px] h-auto" src="./img/logo.png" alt="Logo">
-                </a>
+            class="flex container mx-auto text-white bg-[#18191c] w-full max-w-screen-xl justify-between items-center gap-4 flex-wrap">
+            <div class="header_left flex gap-8">
+
+                <div class="header-logo text-center">
+                    <a href="/index.html">
+                        <img class="max-w-[100px] h-auto" src="./img/asdasdasdasd.jpg" alt="WEB-COME">
+                    </a>
+                </div>
+
+                <div class="header-contacts flex flex-col gap-2">
+                    <div class="tel">
+                        <a href="tel:+9955518282" class="font-bold hover:text-red-500 text-xl text-white shadow-2xl transition duration-150 ease-in-out underline">+995 551-82-82</a>
+                    </div>
+                    <div class="header-socials flex gap-2">
+                        <!-- <a href="#"><img class="w-[20px] max-h-[20px]" src="./img/insta.svg" alt="Instagram"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/tt.svg" alt="TikTok"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/yt.svg" alt="YouTube"></a> -->
+                        <a href="#"><img class="w-[20px]" src="./img/fb.svg" alt="Facebook"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/tg.svg" alt="Telegram"></a>
+                        <a href="#"><img class="w-[20px]" src="./img/wa.svg" alt="WhatsApp"></a>
+                    </div>
+                </div>
+
+
             </div>
-            <nav class="min-w-[50%] hidden lg:block">
+            
+            <!-- <nav class="min-w-[50%] hidden lg:block">
                 <ul class="flex flex-row justify-between">
                     <li><a class="inline-block p-2 text-lg text-slate-800 text-nowrap hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
                             href="/about.html">О нас</a></li>
@@ -36,41 +57,22 @@
                     <li><a class="inline-block p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
                             href="/contacts.html">Контакты</a></li>
                 </ul>
-            </nav>
-            <div class="header-contacts flex flex-col gap-2">
-                <div>Пн.-Вс. <span class="font-bold">с 8.00 до 23.00</span></div>
-                <div class="tel">
-                    <a href="tel:+9955518282" class="contact-phone font-bold">+995 551-82-82</a>
-                </div>
-                <div class="header-socials flex gap-2">
-                    <a href="#"><img class="w-[20px] max-h-[20px]" src="./img/insta.svg" alt="Instagram"></a>
-                    <a href="#"><img class="w-[20px]" src="./img/tt.svg" alt="TikTok"></a>
-                    <a href="#"><img class="w-[20px]" src="./img/yt.svg" alt="YouTube"></a>
-                    <a href="#"><img class="w-[20px]" src="./img/fb.svg" alt="Facebook"></a>
-                    <a href="#"><img class="w-[20px]" src="./img/tg.svg" alt="Telegram"></a>
-                    <a href="#"><img class="w-[20px]" src="./img/wa.svg" alt="WhatsApp"></a>
-                </div>
-            </div>
-            <div class="header-cta__wrapper flex gap-12 items-center lg:mx-auto">
+            </nav> -->
+            
+
+
+
+
+
+            <div class="header-cta__wrapper flex gap-12 items-center">
                 <div class="header-cta xl:block">
-                    <button
-                        class="flex mb-4 items-center rounded bg-[#003366] hover:text-black hover:bg-yellow-300 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-                        id="dropdownMenuButton1" data-twe-dropdown-toggle-ref aria-expanded="false" data-twe-ripple-init
-                        data-twe-ripple-color="light">
-                        Позвонить
-                    </button>
-                    <button
-                        class="flex items-center rounded bg-[#003366] px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:text-black hover:bg-yellow-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-                        id="dropdownMenuButton1" data-twe-dropdown-toggle-ref aria-expanded="false" data-twe-ripple-init
-                        data-twe-ripple-color="light">
-                        Оставить заявку
-                    </button>
+                        <a class="font-bold hover:text-red-500 text-xl text-white transition duration-150 ease-in-out" href="/contacts.html">Обсудить проект</a>
                 </div>
                 <div class="header-controls flex flex-col items-center gap-2">
-                    <a class="me-1.5 rounded lg:hidden px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-yellow-300 hover:shadow-primary-2 focus:bg-yellow-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-yellow-300 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+                    <a class="me-1.5 text-xs font-medium uppercase leading-normal text-white transition duration-150 ease-in-out "
                         data-twe-offcanvas-toggle href="#offcanvasExample" role="button"
                         aria-controls="offcanvasExample" data-twe-ripple-init data-twe-ripple-color="light">
-                        <svg class="w-6 h-6 text-[#003366]" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        <svg class="w-8 h-8 text-white hover:text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h16M4 18h16"></path>
@@ -78,7 +80,7 @@
                     </a>
                     <div class="relative" data-twe-dropdown-ref>
                         <button
-                            class="flex items-center rounded bg-yellow-300 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-primary-3 transition duration-150 ease-in-out hover:bg-[#003366] hover:text-white hover:shadow-primary-2 focus:bg-[#003366] focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-[#003366] active:shadow-primary-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+                            class="flex items-center px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal shadow-border-b transition duration-150 ease-in-out hover:shadow-dark-strong motion-reduce:transition-none"
                             id="dropdownMenuButton1" data-twe-dropdown-toggle-ref aria-expanded="false"
                             data-twe-ripple-init data-twe-ripple-color="light">
                             RU
@@ -192,69 +194,108 @@
         </div>
     </div>
 
+    <div class="header__padding w-full pt-[150px]"></div>
+    <section class="feedback_text py-32">
+        <div class="container mx-auto">
+            <h1 class="text-nowrap text-white text-5xl font-semibold mb-14">Анкета для новых клиентов</h1>
+            <div class="flex gap-8">
+                <div class="text-nowrap text-white text-2xl">
+                    <p>
+                        Перед началом работы мы <br> просим клиентов ответить на несколько вопросов
+                    </p>
+                </div>
+                <div class="flex flex-col gap-8 text-wrap text-white text-xl">
+                    <p>
+                        На основе ваших ответов мы поймем, чем сможем быть полезны: соберем информацию и подготовимся ко
+                        встрече. Так наш первый разговор будет предметным. А если увидим, что не сможем помочь —
+                        посоветуем подходящих партнеров.
+                    </p>
+                    <p>
+                        Мы получаем много заявок по различным каналам связи. Более полные заявки мы берем в работу в
+                        первую очередь.
+                    </p>
+                </div>
 
 
-
-    <section class="seo-text container mx-auto mt-[250px] lg-xl:mt-[250px] sm:mt-[150px] text-black w-full">
-        <div class="right lg:w-[60%]">
-            <div>
-                <h1 class="text-3xl mb-20 font-semibold">КОНТАКТЫ ЭЛЕКТРИКОВ GEORGIAN ELECTRIC GROUP</h1>
-                <h2 class="text-xl font-semibold mb-8"><span class="f2">Вызвать электрика «GEORGIAN ELECTRIC
-                        GROUP»</span></h2>
-                <p class="mb-8 text-lg">Для вызова электрика звоните по контактному номеру телефона. При этом можно
-                    согласовать перечень
-                    необходимых работ и узнать цены на услуги. Выезд мастера возможен в любой день и время, которые
-                    будут
-                    удобны для клиента, а на аварийные вызовы мы реагируем быстро и оперативно.</p>
-                <p class="mb-8 text-lg">☎️ Телефон дежурного электрика: <strong><a class="tel underline"
-                            href="tel:+9955518282">+995 551-82-82</a></strong><br>
-                    📧 Электронная почта для связи: <strong><a class="underline"
-                            href="mailto:info@robotech.email">georgianelectricgroup@gmail.com</a></strong><br>
-                    🏰 17 Konstantine Gamsakhurdia St, Batumi 6010</p>
-                <p class="mb-8 text-lg">Любой человек хоть один раз в жизни сталкивался с проблемами связанными с
-                    электричеством, будь то
-                    неполадки с электропроводкой или необходимость установить розетку. Не всегда есть возможность решить
-                    их
-                    самостоятельно, к тому же это может быть опасно для здоровья. В этом деле не обойтись без
-                    специальных
-                    знаний и навыков, поэтому лучше довериться опытному и профессиональному электрику.</p>
-                <p class="mb-8 text-lg">Наши мастера с большим опытом и высоким уровнем экспертности могут справится с
-                    широким кругом задач.
-                    Таким электрикам под силу:</p>
-                <ul class="list-disc p-4 text-lg">
-                    <li>установить электрооборудование (люстру, светильники, бытовую технику и т.п.);</li>
-                    <li>заменить сломанные розетки;</li>
-                    <li>собрать электрощиток;</li>
-                    <li>заменить старый счетчик на новый;</li>
-                    <li>установить дополнительные электроточки;</li>
-                    <li>проложить телевизионный и интернетный кабель;</li>
-                    <li>установить любые датчики (движения, освещения);</li>
-                    <li>комплексная замена алюминиевой электропроводки на медную;</li>
-                    <li>проектирование и монтаж электрики в квартире или офисе с нуля.</li>
-                </ul>
-                <p class="text-lg">Вызвать электрика стоит, если нужно перенести какие-либо элементы электросети на
-                    другие места, например,
-                    немного сместить выключатель, розетку или бойлер. Также его услуги пригодятся, если неизвестна
-                    причина
-                    неполадки и нет возможности ее определить.</p>
             </div>
         </div>
     </section>
 
 
+    <section class="feedback_form py-32 bg-white text-black">
+        <div class="container mx-auto">
 
-    <section class="map h-[600px] mt-[150px] mb-20 w-full">
 
-        <iframe class="mx-auto"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2981.2414868230326!2d41.635833211839795!3d41.65052417951192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406787825cea75c3%3A0x718a6bf8391391ac!2sDatvebi!5e0!3m2!1sru!2sge!4v1716437737959!5m2!1sru!2sge"
-            width="80%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
+            <p class="text-nowrap  text-5xl font-semibold mb-14">Напишите письмо в свободной форме</p>
+            <div class="flex gap-12 min-h-[430px] flex-wrap">
+                <textarea class="border-2 border-black p-4 basis-[40%]" id="footer_message" placeholder="Ваше сообщение"></textarea>
+
+                <div class="accordion basis-[50%] text-black transition duration-300 ease-in-out">
+                    <div class="accordion-item bg-white rounded-lg">
+                      <button class="text-xl accordion-header w-full text-left px-2 py-2  font-medium transition duration-300 ease-in-out " aria-expanded="false" onclick="toggleAccordion(this)"">
+                        Чем вы занимаетесь?
+                      </button>
+                      <div class="accordion-body px-4 py-2 hidden transition duration-300 ease-in-out">
+                        Расскажите, пожалуйста, чем вы занимаетесь.
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-white rounded-lg">
+                      <button class="text-xl accordion-header w-full text-left px-2 py-2   font-medium" aria-expanded="false" onclick="toggleAccordion(this)">
+                        В чем ваша задача?
+                      </button>
+                      <div class="accordion-body px-4 py-2 hidden transition-all duration-300">
+                        Чего хотите достичь в ближайшем будущем? Что вам мешает?
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-white rounded-lg">
+                      <button class="text-xl accordion-header w-full text-left px-2 py-2  font-medium" aria-expanded="false" onclick="toggleAccordion(this)">
+                        Каким вы видите решение задачи?
+                      </button>
+                      <div class="accordion-body px-4 py-2 hidden transition-all duration-300">
+                        Расскажите каким вы видите решение задачи?
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-white rounded-lg">
+                      <button class="text-xl accordion-header w-full text-left px-2 py-2  font-medium" aria-expanded="false" onclick="toggleAccordion(this)">
+                        Какие у вас ожидания от результата?
+                      </button>
+                      <div class="accordion-body px-4 py-2 hidden transition-all duration-300">
+                        Если не знаете, то придумаем вместе.
+                      </div>
+                    </div>
+                    <div class="accordion-item bg-white rounded-lg">
+                      <button class="text-xl accordion-header w-full text-left px-2 py-2  font-medium" aria-expanded="false" onclick="toggleAccordion(this)">
+                        Какие есть ограничения по проекту?
+                      </button>
+                      <div class="accordion-body px-4 py-2 hidden transition-all duration-300">
+                        Какой выделен бюджет? Какие сроки реализации проекта? Может, есть что-то еще по ограничениям?
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                  
+
+                
+
+
+            
+
+
+
+
+
+
+            
+        </div>
     </section>
-
+    
 
     <section id="footer_form"
-        class="footer-form p-8 py-12 bg-[#003366] hero mx-auto max-w-full text-black items-center ">
+        class="footer-form p-8 py-12 bg-[#18191c] hero mx-auto max-w-full text-black items-center ">
 
 
 
@@ -264,41 +305,41 @@
 
 
         <div class="bg-white p-8 rounded-lg shadow-2xl container w-full mx-auto">
-            <h2 class="text-5xl font-bold text-gray-800 mb-6 text-center">Остались вопросы?</h2>
-            <h4 class="text-2xl font-medium text-gray-800 mb-6 text-center">Оставьте удобные вам контактные данные, и мы
-                поможем!</h4>
-
+            <p class="text-2xl font-semibold text-gray-800 mb-6 text-left">Контактные данные</p>
             <form id="footerForm" class="space-y-4">
-                <div class="flex justify-around flex-wrap gap-4">
-                    <div class="my-2">
+                <div class="flex justify-between flex-wrap gap-8 max-w-[60%]">
+                    <div class="my-2 w-1/3 basis-[40%]">
+                        <label for="footer_name">Имя *</label>
                         <input
-                            class="appearance-none border border-black  block max-w-[600px] p-2  my-1 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            id="footer_name" type="text" placeholder="Имя" required>
+                            class="appearance-none border-b border-black  block w-full p-2  my-1 text-gray-700 leading-tight focus:outline-none"
+                            id="footer_name" type="text" required>
                     </div>
-                    <div class="my-2">
+                    <div class="my-2  w-1/3 basis-[40%]">
+                        <label for="footer_tel">Телефон *</label>
                         <input
-                            class="appearance-none border border-black  block max-w-[600px] p-2 my-1 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            id="footer_tel" type="tel" placeholder="Телефон">
+                            class="appearance-none border-b border-black  block w-full p-2 my-1 text-gray-700 leading-tight focus:outline-none"
+                            id="footer_tel" type="tel" required>
                     </div>
 
-                    <div class="my-2">
+                    <div class="my-2  w-1/3 basis-[40%]">
+                        <label for="footer_email">Электронная почта *</label>
                         <input
-                            class="appearance-none border border-black  block max-w-[600px]  p-2 my-1 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500"
-                            id="footer_email" type="tel" placeholder="E-mail">
+                            class="appearance-none border-b border-black  block w-full  p-2 my-1 text-gray-700 leading-tight focus:outline-none"
+                            id="footer_email" type="email" required>
                     </div>
                 </div>
 
-
-                <div>
-                    <textarea
-                        class="appearance-none border border-black  w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:ring-2 focus:ring-blue-500 h-32"
-                        id="footer_message" placeholder="Your message" required></textarea>
-                </div>
-                <div class="flex items-center justify-between">
+                <div class="flex gap-8 items-center">
+                    
                     <button id="submit"
-                        class="bg-[#003366] hover:bg-yellow-300 hover:text-black text-white font-bold py-2 px-4 my-1 w-full rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
-                        Отправить заявку
+                        class="transition duration-300 ease-in-out bg-black hover:shadow-2xl hover:bg-red text-white font-bold py-4 px-12 my-1  disabled:opacity-50 disabled:cursor-not-allowed">
+                        Отправить анкету
                     </button>
+                    <input class="p-4 w-12 h-12" type="checkbox" name="#" id="personal-data" checked  onchange="document.getElementById('submit').disabled = !this.checked;">
+                    
+                    <label class="" for="personal-data">Я согласен на <a class="underline text-red-500" href="/soglashenie/">обработку
+                        моих персональных данных</a> <br>и ознакомился с <a class="underline text-red-500" href="/konfidentsialnost/">политикой
+                        обработки персональных данных</a>.</label>
                 </div>
             </form>
         </div>
@@ -314,142 +355,10 @@
 
 
 
-
-
-
-
-
-
-
-    <footer class="footer w-full mt-20">
-
-        <div>
-            <div class="container mx-auto">
-                <div class="flex justify-between flex-wrap gap-12">
-                    <div class="flex justify-center sm-lg:w-full  gap-8 lg:gap-48 lg:justify-evenly">
-                        <div class="footer_sitemap">
-                            <div class="footer_sitemap__header font-semibold mb-2 text-[#003366]">
-                                Карта сайта</div>
-                            <div>
-                                <ul class="flex flex-col justify-between">
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/about.html">О нас</a></li>
-                                    <li class="font-medium"><a
-                                            class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/services.html">Услуги</a></li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/warranty.html">Гарантия</a></li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/blog.html">Блог</a></li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/vacancies.html">Вакансии</a></li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/contacts.html">Контакты</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="footer_services">
-                            <div class="footer_services__header font-semibold mb-2 text-[#003366]">
-                                Сервис</div>
-                            <div class="footer_services__body mx-auto">
-                                <ul>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/services.html#sockets" rel="noopener noreferrer">Установка
-                                            розеток</a></li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/services.html#lighting">Освещение в квартире</a></li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/services.html#protection" rel="noopener noreferrer">Монтаж защиты</a>
-                                    </li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/services.html#wiring" rel="noopener noreferrer">Монтаж
-                                            электропроводки</a>
-                                    </li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/services.html#hhappliances" rel="noopener noreferrer">Подключение
-                                            техники</a>
-                                    </li>
-                                    <li><a class="inline-block p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5"
-                                            href="/services.html#lowcurrent" rel="noreferrer noopener">Монтаж
-                                            слаботочных систем</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer_contacts sm-lg:w-full">
-                        <div class="footer_contacts__header font-semibold mb-2 text-[#003366]">
-                            Контакты</div>
-                        <div class="footer_contacts__body">
-                            <ul>
-                                <li>
-                                    <p
-                                        class="p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5">
-                                        г. Батуми, улица Пушкина, дом Колотушкина, 1488</p>
-                                    <p
-                                        class="p-2 text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5">
-                                        Тел.: <a href="tel:+9955518282" class="contact-phone font-bold underline">+995
-                                            551-82-82</a>
-                                    </p>
-                                    <p
-                                        class="flex justify-start items-center gap-2 p-2 text-sm text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5">
-                                        <a href="#"><img class="w-[20px] max-h-[20px]" src="./img/tg.svg" alt="#"></a>
-                                        <a href="#"><img class="w-[20px] max-h-[20px]" src="./img/wa.svg" alt="#"></a>
-                                        <span><a href="tel:+9955518282"
-                                                class="contact-phone font-bold underline text-lg">+995
-                                                551-82-82</a></span>
-                                    </p>
-                                    <p
-                                        class="p-2 sm:text-lg text-slate-800 hover:text-white tracking-wide uppercase relative group z-20 after:content-[''] after:absolute after:left-0 after:bottom-1 after:bg-[#003366] after:w-full after:h-px after:hover:h-9 after:-z-10 transition-all after:transition-all duration-100 active:translate-y-0.5">
-                                        <noindex>E-mail: <a
-                                                href="mailto:georgianelectricgroup@gmail.ru">georgianelectricgroup@mail.ru</a>
-                                        </noindex>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="footer__under">
-
-            <div class="container mx-auto flex justify-between flex-wrap py-8 items-center">
-                <div class="header-logo text-center flex items-center gap-4"><a href="index.html"><img
-                            class="max-w-[100px] h-auto" src="./img/logo.png" alt="">
-                    </a> <span class="font-semibold">© 2007-2024 "Georgian Electric Group" - All rights reserved.</span>
-                </div>
-
-
-
-                <div class="footer-socials flex gap-4 items-center">
-                    Мы в соцсетях:
-                    <a href="#"><img class="w-[40px] max-h-[40px]" src="./img/insta.svg" alt="#"></a>
-                    <a href="#"><img class="w-[40px] max-h-[40px]" src="./img/tt.svg" alt="#"></a>
-                    <a href="#"><img class="w-[40px] max-h-[40px]" src="./img/yt.svg" alt="#"></a>
-                    <a href="#"><img class="w-[40px] max-h-[40px]" src="./img/fb.svg" alt="#"></a>
-                    <!-- <a href="#"><img class="w-[40px] max-h-[40px]" src="img/tg.svg" alt="#"></a>
-                                <a href="#"><img class="w-[40px] max-h-[40px]" src="img/wa.svg" alt="#"></a> -->
-
-                </div>
-
-
-
-
-
-            </div>
-
-        </div>
-
-    </footer>
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
-        <script type="text/javascript" src="./script.js"></script>
-        <script type="text/javascript" src="./tw-elements.umd.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src="./tw-elements.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
 
 </body>
 
