@@ -189,4 +189,41 @@ document.addEventListener("DOMContentLoaded", function () {
     // Начинаем наблюдение за frame
     observer.observe(frame);
   });
+
+
+
+
+
+  // typer
+
+
+  const phrases = ['Веб-разработка', 'SEO-оптимизация и контент-маркетинг', 'Контекстная реклама и медиапланирование', 'Маркетинг в социальных сетях (SMM)', 'Брендинг и айдентика', 'Разработка мобильных приложений', 'UX/UI дизайн', 'Аналитика и отчетность', 'Управление репутацией (ORM)', 'Email-маркетинг', 'Видеомаркетинг'];
+        const speed = 80; // The speed/duration of the effect in milliseconds
+        const speedBack = 25;
+        let currentPhraseIndex = 0;
+        let currentCharIndex = 0;
+
+        const typeWriter = () => {
+            if (currentCharIndex < phrases[currentPhraseIndex].length) {
+                document.getElementById("typer").innerHTML += phrases[currentPhraseIndex].charAt(currentCharIndex);
+                currentCharIndex++;
+                setTimeout(typeWriter, speed);
+            } else {
+                setTimeout(eraseWriter, speed * 10); // Delay before erasing the phrase
+            }
+        };
+
+        const eraseWriter = () => {
+            if (currentCharIndex >= 0) {
+                document.getElementById("typer").innerHTML = phrases[currentPhraseIndex].substring(0, currentCharIndex);
+                currentCharIndex--;
+                setTimeout(eraseWriter, speedBack);
+            } else {
+                currentPhraseIndex = (currentPhraseIndex + 1) % phrases.length;
+                setTimeout(typeWriter, speedBack);
+            }
+        };
+
+        // Start the typing effect
+        typeWriter();
   

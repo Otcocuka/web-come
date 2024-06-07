@@ -10,20 +10,21 @@
   
 </head>
 
-<body>
+<body class="overflow-x-hidden">
     <div
-        class="header-wrapper p-4 bg-[#18191c] fixed top-0 z-50 w-full transition-transform duration-300">
+        class="header-wrapper bg-[#18191c] fixed top-0 left-0 z-50 w-full  transition-transform duration-300">
         <header id="header"
-            class="flex container mx-auto text-white bg-[#18191c] w-full max-w-screen-xl justify-between items-center gap-4 flex-wrap">
-            <div class="header_left flex gap-8 items-center">
+            class="flex container mx-auto text-white bg-[#18191c] justify-between items-center gap-4 flex-wrap">
+            <div class="header_left flex gap-8 items-center justify-between">
 
-                <div class="header-logo text-center text-2xl font-semibold text-white">
+                <div class="header-logo text-center text-xl sm:text-2xl font-semibold text-white">
                     <a href="/index.html">
                         Web-Come
                     </a>
+                    
                 </div>
 
-                <div class="header-contacts flex flex-col gap-2">
+                <div class="header-contacts hidden md:flex flex-col gap-2">
                     <div class="tel">
                         <a href="tel:+9955518282" class="font-bold hover:text-red-500 text-base sm:text-xl text-white shadow-2xl transition duration-150 ease-in-out underline">+995 551-82-82</a>
                     </div>
@@ -64,7 +65,7 @@
 
 
             <div class="header-cta__wrapper flex gap-12 items-center">
-                <div class="header-cta xl:block">
+                <div class="header-cta hidden sm:block">
                         <a class="font-bold hover:text-red-500 text-xl text-white transition duration-150 ease-in-out" href="/contacts.html">Обсудить проект</a>
                 </div>
                 <div class="header-controls flex flex-col items-center gap-2">
@@ -195,7 +196,14 @@
 
 
 
-    <h1 class="text-nowrap absolute top-[50%] left-[50%] text-white z-50 mx-auto text-4xl font-semibold translate-x-[-50%]  translate-y-[-50%]">WEB-COME</h1>
+    <div class="text-wrap text-left px-8 absolute top-[50%] left-[0%] min-w-[50%] text-white z-50 mx-auto text-4xl lg:text-8xl font-semibold   translate-y-[-50%]">
+        <h1>Специализируемся на продвижении бизнеса в интернете
+            <br>
+            <span id="typer" class="text-4xl lg:text-8xl font-semibold text-red-500 text-wrap"></span>
+            <span class="typed-cursor text-red-500" aria-hidden="true">|</span>
+        </h1>
+    </div>
+    
 
     <iframe id="frame" class="relative" src="https://html.5corners.ru/fluid_simulation/" width="100%" height="100%" frameborder="0"></iframe>
 
