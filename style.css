@@ -1223,10 +1223,6 @@ input[type="range"]:active::-webkit-slider-thumb {
   width: 33.333333%;
 }
 
-.w-1\/4 {
-  width: 25%;
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -1374,6 +1370,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .basis-auto {
   flex-basis: auto;
+}
+
+.basis-1\/4 {
+  flex-basis: 25%;
 }
 
 .table-auto {
@@ -4291,6 +4291,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
   .sm\:max-w-\[604px\] {
     max-width: 604px;
+  }
+
+  .sm\:basis-1\/4 {
+    flex-basis: 25%;
   }
 
   .sm\:text-lg {
