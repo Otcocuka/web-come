@@ -207,13 +207,13 @@
     </div>
 
     <div class="header__padding w-full pt-[70px] lg:pt-[150px]"></div>
-    <section class="feedback_text pt-8 pb-12 lg:pt-24 lg:pb-32">
+    <section class="feedback_text py-8 lg:pt-16 lg:pb-20 xl:pt-24 xl:pb-32">
         <div class="container mx-auto">
-            <h1 class="text-wrap text-white text-5xl font-semibold mb-8 lg:mb-14">Анкета для новых клиентов</h1>
+            <h1 class="text-wrap text-white text-5xl font-semibold mb-8 lg:mb-14"> <span class="text-red-500">Анкета</span> для новых клиентов</h1>
             <div class="flex w-full flex-wrap justify-between">
                 <div class="xl:basis-1/4 mb-4 lg:mb-8">
                     <p class="text-wrap text-white text-2xl pr-4">
-                        Перед началом работы мы просим клиентов ответить на несколько вопросов
+                        Перед началом работы мы просим клиентов ответить на <span class="text-red-500">несколько вопросов</span>
                     </p>
                 </div>
                 <div class="xl:basis-3/4 flex flex-col gap-4 lg:gap-8 text-wrap text-white text-lg mb-4 lg:mb-14">
@@ -234,19 +234,19 @@
     </section>
 
 
-    <section class="feedback_form py-32 bg-white text-black">
+    <section class="feedback_form py-8 xl:py-32 lg:py-24  bg-white text-black">
         <div class="container mx-auto">
 
 
 
-            <p class="text-wrap  text-2xl font-semibold mb-8">Напишите письмо в свободной форме</p>
+            <p class="text-wrap  text-3xl font-semibold mb-8"><span class="text-red-500">Напишите</span> письмо в свободной форме</p>
             <div class="flex lg:gap-12 gap-4  flex-wrap">
                 <textarea class="border-4 rounded-3xl hover:border-red-500 focus:outline-red-500 border-black min-h-[250px] lg:min-h-[400px]  p-4 lg:w-[50%] w-[100%] " id="footer_message" placeholder="Ваше сообщение"></textarea>
 
                 <div class="accordion  lg:w-[40%] w-[100%] text-black transition duration-300 ease-in-out">
                     <div class="accordion-item bg-white rounded-lg text-wrap">
                       <button class="text-xl accordion-header w-full text-left px-2 py-2 font-semibold transition duration-300 ease-in-out " aria-expanded="true" onclick="toggleAccordion(this)"">
-                        Чем вы занимаетесь?
+                        <span class="text-red-500">Чем</span> вы занимаетесь?
                       </button>
                       <div class="accordion-body px-4 py-2 block transition duration-300 ease-in-out">
                         Расскажите, пожалуйста, чем вы занимаетесь.
@@ -254,7 +254,7 @@
                     </div>
                     <div class="accordion-item bg-white rounded-lg text-wrap">
                       <button class="text-xl accordion-header w-full text-left px-2 py-2 font-semibold" aria-expanded="true" onclick="toggleAccordion(this)">
-                        В чем ваша задача?
+                        В чем ваша <span class="text-red-500">задача</span>?
                       </button>
                       <div class="accordion-body px-4 py-2 block transition-all duration-300">
                         Чего хотите достичь в ближайшем будущем? Что вам мешает?
@@ -262,7 +262,7 @@
                     </div>
                     <div class="accordion-item bg-white rounded-lg text-wrap">
                       <button class="text-xl accordion-header w-full text-left px-2 py-2 font-semibold" aria-expanded="true" onclick="toggleAccordion(this)">
-                        Каким вы видите решение задачи?
+                        Каким вы видите <span class="text-red-500">решение</span> задачи?
                       </button>
                       <div class="accordion-body px-4 py-2 block transition-all duration-300">
                         Расскажите каким вы видите решение задачи?
@@ -270,7 +270,7 @@
                     </div>
                     <div class="accordion-item bg-white rounded-lg text-wrap">
                       <button class="text-xl accordion-header w-full text-left px-2 py-2 font-semibold" aria-expanded="true" onclick="toggleAccordion(this)">
-                        Какие у вас ожидания от результата?
+                        Какие у вас <span class="text-red-500">ожидания</span> от результата?
                       </button>
                       <div class="accordion-body px-4 py-2 block transition-all duration-300">
                         Если не знаете, то придумаем вместе.
@@ -278,7 +278,7 @@
                     </div>
                     <div class="accordion-item bg-white rounded-lg text-wrap">
                       <button class="text-xl accordion-header w-full text-left px-2 py-2 font-semibold" aria-expanded="true" onclick="toggleAccordion(this)">
-                        Какие есть ограничения по проекту?
+                        Какие есть <span class="text-red-500">ограничения</span> по проекту?
                       </button>
                       <div class="accordion-body px-4 py-2 block transition-all duration-300">
                         Какой выделен бюджет? Какие сроки реализации проекта? Может, есть что-то еще по ограничениям?
@@ -321,20 +321,20 @@
             <form id="footerForm" class="space-y-4">
                 <div class="flex justify-between flex-wrap gap-8 w-[100%] md:max-w-[60%]">
                     <div class="my-2 w-full md:w-1/3 md:basis-[40%]">
-                        <label for="footer_name">Имя *</label>
+                        <label for="footer_name">Имя <span class="text-red-500">*</span></label>
                         <input
                             class="appearance-none border-b-4 border-black focus:border-b-red-500  block w-full p-2  my-1 text-gray-700 leading-tight focus:outline-none"
                             id="footer_name" type="text" required>
                     </div>
                     <div class="my-2 w-full md:w-1/3 md:basis-[40%]">
-                        <label for="footer_tel">Телефон *</label>
+                        <label for="footer_tel">Телефон <span class="text-red-500">*</span></label>
                         <input
                             class="appearance-none border-b-4 border-black focus:border-b-red-500 block w-full p-2 my-1 text-gray-700 leading-tight focus:outline-none"
                             id="footer_tel" type="tel" required>
                     </div>
 
                     <div class="my-2 w-full md:w-1/3 md:basis-[40%]">
-                        <label for="footer_email">Электронная почта *</label>
+                        <label for="footer_email">Электронная почта <span class="text-red-500">*</span></label>
                         <input
                             class="appearance-none  border-b-4 border-black focus:border-b-red-500 block w-full  p-2 my-1 text-gray-700 leading-tight focus:outline-none"
                             id="footer_email" type="email" required>
