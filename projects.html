@@ -10,6 +10,13 @@
     <link rel="icon" href="./img/webcomelogo.png" type="image/png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <style>
+        .box1, .box2 {
+          transition: transform 0.3s ease;
+        }
+      </style>
 
 </head>
 
@@ -214,32 +221,85 @@
 
 
 
+    <section class="works min-h-screen flex-col-reverse px-4 xl:flex-row xl:pt-[40px] xl:pb-8 xl:px-8 mx-auto text-xl items-center flex relative overflow-hidden  bg-[#18191c] border-b-2 border-red-500 lg:border-0 my-20 text-white  py-8 about lg:pt-[40px] p-8 services gap-12">
+        
+        <div class="services-content xl:w-1/2 pt-12 works_card 2xl:pl-8">
+            
+            <div class="works_header">
+                
+                <h2 class="works_name mb-12 text-3xl md:text-4xl lg:text-7xl xl:text-8xl font-bold mt-8 text-white ">Двери
+                    и
+                    <span class="text-red-500">Точка</span></h2>
+                    <div class="works_tags my-4 flex flex-wrap gap-4"> 
+                        <span class="p-2 bg-white text-black">Дизайн</span> <span class="p-2 bg-white text-black">Разработка</span> <span
+                            class="p-2 bg-white text-black">Автоматизация бизнес-процессов</span> <span class="p-2 bg-white text-black">Brand-direction</span>
+                        
+                        <!-- We present an online store featuring an extensive range of interior doors and flooring options from over 100
+                        manufacturers. Our unique offering stems from direct partnerships with 40+ warehouses, ensuring swift delivery from our
+                        partners' facilities. Serving both corporate entities and individuals, we provide delivery through our fleet and
+                        third-party courier services across the Russian Federation. Explore ongoing promotions as part of our commitment to
+                        exceptional value. -->
+                        </div>
+                    
+
+
+                
+
+            </div>
+            
+            <div class="works_body">
+                <p class="about-text">Представляем вам наш проект онлайн-магазина дверей "Двери и Точка".</p>
+                    <ul class="list-disc m-4 text-base">
+                        <li>Широкий ассортимент дверей более чем 100 производителей
+                        </li>
+                        <li>Прямое партнерство с более чем 40 складами, что обеспечивает скорейшую доставку по всей РФ
+                        </li>
+                        <li>Обслуживание как юридических, так и частных лиц
+                        </li>
+                        <li>Доставку своим автопарком и через сторонние курьерские службы по РФ
+                        </li>
+                    </ul>
+                    <p class="about-text">
+                        <span class="text-red-500 font-bold text-2xl">А еще</span> <br>
+                        <b class="text-red-500">Сотрудничество с нами</b> позволило компании увеличить ежемесячную выручку в 5 раз, а количество заявок в 7. Средний чек также вырос за счет удобного предложения сопутствующих товаров
+                    </p>
+                    <a class="block my-12 font-bold text-red-500 text-3xl underline hover:text-white transition duration-150 ease-in-out"
+                                href="/web-come/contacts.html">Обсудить проект</a>
+            </div>
+            <a class="block my-12 font-bold text-red-500 text-3xl underline hover:text-white transition duration-150 ease-in-out"
+                                href="https://dveri-i.ru/">Перейти на сайт</a>
+        </div>
+        <div class="works_frame 2xl:pl-8">
+            <div class="works_frame"><img class="w-[1920px] h-auto rounded-xl relative border-red-500 border-2" src="./img/dveri-i-dot.webp" alt="#"></div>
+            <div class="box1 absolute top-[2rem] sm:top-[10rem] lg:top-[2rem] xl:top-[48rem] 2xl:top-[10rem] right-[10%] 2xl:right-[20%] z-50 border-red-500 border-2 rounded-lg"><img class="w-20 max-h-20 sm:w-28 sm:max-h-28 lg:w-32 lg:max-h-32 2xl:w-40 2xl:max-h-40 rounded-lg" src="./img/dveri-i-dot-1.webp" alt="#"></div>
+            <div class="box2 absolute top-[4rem] sm:top-[7rem] lg:top-[15rem] xl:top-[40rem] 2xl:top-[25rem] right-[60%]  2xl:right-2/4 z-50 border-red-500 border-2 rounded-lg"><img class="w-20 max-h-20 sm:w-28 sm:max-h-28 lg:w-32 lg:max-h-32 2xl:w-40 2xl:max-h-40 rounded-lg" src="./img/dveri-i-dot-2.webp" alt="#"></div>
+            
+        </div>
+    </section>
 
 
 
-
-
-    <footer class="footer  w-full bg-[#18191c] py-24">
+    <footer class="footer w-full bg-[#18191c] py-12">
         <div class="footer-wrapper flex flex-col gap-8 container mx-auto bg-[#18191c]">
             <div class="flex justify-between flex-wrap items-center">
                 <nav class="flex justify-between flex-wrap text-white gap-8 lg:text-xl items-center mb-8">
                     <a href="/web-come/projects.html">Проекты</a>
-                    <a href="/web-come/projects.html">Услуги</a>
+                    <a href="/web-come/services.html">Услуги</a>
                     <a href="/web-come/projects.html">Блог</a>
                     <a href="/web-come/contacts.html">Контакты</a>
                     <a href="/web-come/projects.html">Работа у нас</a>
-                    <a href="/web-come/projects.html">custom</a>
+                    <a href="/web-come/projects.html">Custom</a>
 
 
 
 
 
 
-                    
+
                 </nav>
 
                 <div class="header-socials flex justify-between gap-8 items-center">
-                    
+
                     <a href="#"><img class="lg:w-[40px]" src="./img/fb1.svg" alt="Facebook"></a>
                     <a href="#"><img class="lg:w-[40px]" src="./img/tg1.svg" alt="Telegram"></a>
                     <a href="#"><img class="lg:w-[40px]" src="./img/wa1.svg" alt="WhatsApp"></a>
@@ -255,13 +315,13 @@
 
                     © 2023 - 2024 Digital Marketing Agency Web-Come <br>
                     ИНН **********, ООО "Web-Come"
-                    
 
 
 
 
 
-                    
+
+
                 </div>
 
                 <div class="">
@@ -281,14 +341,21 @@
 
     </footer>
 
-    
 
-        
-        <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
-        <script type="text/javascript" src="./canvas.js"></script>
+
+
+
+   
+  
+    
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.2.2/dist/cdn.min.js" defer></script>
         <script type="text/javascript" src="./script.js"></script>
         <script type="text/javascript" src="./tw-elements.umd.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+        <script src="scripts.js"></script>
+  </body>
+        
+        
 </body>
 
 </html>
