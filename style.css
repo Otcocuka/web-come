@@ -953,6 +953,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin: 1rem;
 }
 
+.m-20 {
+  margin: 5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -971,11 +975,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .my-24 {
@@ -2942,10 +2941,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .pt-\[70px\] {
   padding-top: 70px;
-}
-
-.pt-\[88px\] {
-  padding-top: 88px;
 }
 
 .text-left {
