@@ -949,12 +949,12 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin: 0px;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .m-20 {
   margin: 5rem;
+}
+
+.m-4 {
+  margin: 1rem;
 }
 
 .mx-auto {
