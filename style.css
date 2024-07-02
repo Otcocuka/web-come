@@ -4523,12 +4523,12 @@ input[type="range"]:active::-webkit-slider-thumb {
     left: 50%;
   }
 
-  .sm\:top-\[10rem\] {
-    top: 10rem;
+  .sm\:top-0 {
+    top: 0px;
   }
 
-  .sm\:top-\[7rem\] {
-    top: 7rem;
+  .sm\:top-\[5rem\] {
+    top: 5rem;
   }
 
   .sm\:mt-\[150px\] {
@@ -4732,6 +4732,10 @@ input[type="range"]:active::-webkit-slider-thumb {
     border-width: 0px;
   }
 
+  .lg\:border-t-2 {
+    border-top-width: 2px;
+  }
+
   .lg\:bg-red-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(239 68 68 / var(--tw-bg-opacity));
@@ -4804,12 +4808,12 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 
 @media (min-width: 1280px) {
-  .xl\:top-\[40rem\] {
-    top: 40rem;
+  .xl\:top-\[-5rem\] {
+    top: -5rem;
   }
 
-  .xl\:top-\[48rem\] {
-    top: 48rem;
+  .xl\:top-\[-6rem\] {
+    top: -6rem;
   }
 
   .xl\:block {
@@ -4895,12 +4899,12 @@ input[type="range"]:active::-webkit-slider-thumb {
     right: 20%;
   }
 
-  .\32xl\:top-\[10rem\] {
-    top: 10rem;
+  .\32xl\:top-\[-10rem\] {
+    top: -10rem;
   }
 
-  .\32xl\:top-\[25rem\] {
-    top: 25rem;
+  .\32xl\:top-\[4rem\] {
+    top: 4rem;
   }
 
   .\32xl\:max-h-40 {

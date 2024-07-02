@@ -135,6 +135,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
         // Очищаем форму
         event.target.reset();
+        document.getElementById("footer_message").value = "";
       });
   
     function sendTelegramMessage(
